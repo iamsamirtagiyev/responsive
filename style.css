@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+    gap: 10px;
+    padding: 10px;
+}
+.left{
+    width: 30%;
+    min-height: 100vh;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+}
+.left .image{
+    position: relative;
+    width: 100%;
+}
+.left .image img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.left .image span{
+    position: absolute;
+    font-size: 30px;
+    font-weight: 300;
+    left: 10px;
+    bottom: 10px;
+}
+.left .info .about{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+}
+.left .info .about .about-box{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.left .info .about .about-box i{
+    color: aqua;
+    font-size: 25px;
+}
+.left .info .about .about-box span{
+    color: rgb(116, 116, 116);
+    font-size: 18px;
+    font-weight: 300;
+}
+.left .info .skills{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
+.left .info .skills h1 span{
+    color: aqua;
+    font-size: 50px;
+}
+.left .info .skills h1{
+    color: rgb(116, 116, 116);
+    font-size: 25px;
+    font-weight: 400;
+}
+.left  .skills .ranges{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+}
+.left  .skills .ranges .adobe .title{
+    color: rgb(116, 116, 116);
+}
+.left .skills .adobe{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.left .skills .adobe .bar{
+    position: relative;
+    width: 100%;
+    height: 14px;
+    border-radius: 50px;
+    background: rgb(116, 116, 116);
+}
+.left .skills .adobe .bar:after{
+    position: absolute;
+    content: '90%';
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 100%;
+    background: aqua;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    color: rgb(116, 116, 116);
+}
+.left .skills .photo .bar{
+    position: relative;
+    width: 100%;
+    height: 14px;
+    border-radius: 50px;
+    background: rgb(116, 116, 116);
+}
+.left .skills .photo .bar:after{
+    position: absolute;
+    content: '80%';
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: 100%;
+    background: aqua;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    color: rgb(116, 116, 116);
+}
+.left .skills .illustrator .bar{
+    position: relative;
+    width: 100%;
+    height: 14px;
+    border-radius: 50px;
+    background: rgb(116, 116, 116);
+}
+.left .skills .illustrator .bar:after{
+    position: absolute;
+    content: '75%';
+    top: 0;
+    left: 0;
+    width: 75%;
+    height: 100%;
+    background: aqua;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    color: rgb(116, 116, 116);
+}
+.left .skills .media .bar{
+    position: relative;
+    width: 100%;
+    height: 14px;
+    border-radius: 50px;
+    background: rgb(116, 116, 116);
+}
+.left .skills .media .bar:after{
+    position: absolute;
+    content: '50%';
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: aqua;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    color: rgb(116, 116, 116);
+}
+.left  .lang .ranges{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 15px;
+}
+.left .lang .en .bar{
+    position: relative;
+    width: 100%;
+    height: 20px;
+    border-radius: 50px;
+    background: rgb(116, 116, 116);
+}
+.left .lang .en .bar:after{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 100%;
+    background: aqua;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    color: rgb(116, 116, 116);
+}
+.left .lang .sp .bar{
+    position: relative;
+    width: 100%;
+    height: 20px;
+    border-radius: 50px;
+    background: rgb(116, 116, 116);
+}
+.left .lang .sp .bar:after{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 70%;
+    height: 100%;
+    background: aqua;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    color: rgb(116, 116, 116);
+}
+.left .lang .ger .bar{
+    position: relative;
+    width: 100%;
+    height: 20px;
+    border-radius: 50px;
+    background: rgb(116, 116, 116);
+}
+.left .lang .ger .bar:after{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 40%;
+    height: 100%;
+    background: aqua;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    color: rgb(116, 116, 116);
+}
+
+.right{
+    width: 70%;
+}
+.right .top{
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+}
+.right .bottom{
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+}
+.right .top .title, .right .bottom .title{
+    display: flex;
+    align-items: center;
+}
+
+.right .top .title i, .right .bottom .title i{
+    color: aqua;
+    font-size: 50px;
+}
+.right .top .title h1, .right .bottom .title h1{
+    color: rgb(116, 116, 116);
+    font-size: 30px;
+    font-weight: 500;
+}
+.right .top .front .title, .right .bottom .title{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(116, 116, 116);
+}
+.date{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    color: aqua;
+}
+.date i{
+    font-size: 30px;
+}
+.date  p{
+    background: aqua;
+    padding: 2px;
+    border-radius: 5px;
+    color: #fff;
+}
+.right .top .front, .right .bottom .front{
+    margin-top: 50px;
+}
+.right .top .front .paragraph, .right .bottom .front .paragraph{
+    font-weight: 500;
+    color: rgb(116, 116, 116);
+    margin-top: 20px;
+}
+footer{
+    width: 100%;
+    background: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.icons i{
+    font-size: 25px;
+}
+@media(max-width: 600px){
+    .container{
+        flex-direction: column;
+    }
+    .left{
+        width: 100%;
+    }
+    .right{
+        width: 100%;
+    }
+}
